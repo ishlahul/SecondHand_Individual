@@ -1,0 +1,2449 @@
+{
+	"info": {
+		"_postman_id": "f2755e95-670c-4f67-bbfc-0cde2be4e2ab",
+		"name": "Binar Gold Challenge",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "19325973"
+	},
+	"item": [
+		{
+			"name": "Auth Register",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "full_name",
+							"value": "doi4",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "doi4@mail.com",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "123123",
+							"type": "text"
+						},
+						{
+							"key": "phone_number",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "address",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "city",
+							"value": "",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/auth/register",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"auth",
+						"register"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Auth Register  status 201",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 124439,\r\n  \"full_name\": \"Doi3\",\r\n  \"email\": \"doi3@mail.com\",\r\n  \"password\": \"123123\",\r\n  \"phone_number\": \"\",\r\n  \"address\": \"\",\r\n  \"image_url\": null,\r\n  \"city\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/auth/register",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "266"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"10a-B4m4OJMGpEyRRCL4fEJ9fFBztZ8\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 31 Mar 2023 12:03:03 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 124439,\n    \"full_name\": \"Doi3\",\n    \"email\": \"doi3@mail.com\",\n    \"password\": \"$2b$10$1.42YhJDG.i7p4Sl8zxlSusFhtay9z3QqFRA6MbGMwIGskFakZdX2\",\n    \"phone_number\": \"\",\n    \"address\": \"\",\n    \"image_url\": null,\n    \"city\": \"\",\n    \"updatedAt\": \"2023-03-31T12:03:03.458Z\",\n    \"createdAt\": \"2023-03-31T12:03:03.458Z\"\n}"
+				},
+				{
+					"name": "Auth Register status 400",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": 124439,\r\n  \"full_name\": \"Doi3\",\r\n  \"email\": \"doi3@mail.com\",\r\n  \"password\": \"123123\",\r\n  \"phone_number\": \"\",\r\n  \"address\": \"\",\r\n  \"image_url\": null,\r\n  \"city\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/auth/register",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "59"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"3b-BXtdvYPolQA6UQKh/HseVBlNfJ8\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 31 Mar 2023 12:03:43 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"badRequestEmail\",\n    \"message\": \"Email already exists\"\n}"
+				},
+				{
+					"name": "Auth Register status 500",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": ,\r\n  \"full_name\": \"Doi3\",\r\n  \"email\": \"doi3@mail.com\",\r\n  \"password\": \"123123\",\r\n  \"phone_number\": \"\",\r\n  \"address\": \"\",\r\n  \"image_url\": null,\r\n  \"city\": \"\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/auth/register",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "56"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"38-uH/mTz44c1XOvIjXCBfHtptoJZQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 31 Mar 2023 12:04:07 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"SyntaxError\",\n    \"message\": \"Internal Server Error\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Auth Login",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\": \"doi4@mail.com\",\r\n    \"password\": \"123123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/auth/login",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"auth",
+						"login"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Auth Login status 201",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"doi3@mail.com\",\r\n    \"password\": \"123123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/auth/login",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "206"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"ce-CQptXlVUxx2H8y9tQqLsyqfoZBg\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 31 Mar 2023 12:06:22 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 124439,\n    \"name\": \"Doi3\",\n    \"email\": \"doi3@mail.com\",\n    \"access_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImRvaTNAbWFpbC5jb20iLCJpYXQiOjE2ODAyNjQzODJ9.tx2PK2iWljhnrXCEEuLnFMz8qDpuMJzTFtC-pvXTqEg\"\n}"
+				},
+				{
+					"name": "Auth Login status 401",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"doi3@mail.com\",\r\n    \"password\": \"12312\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/auth/login",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "69"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"45-RV4qmFsfCHBniDqVMBStgbu4r64\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 31 Mar 2023 12:07:12 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"wrongEmailPassword\",\n    \"message\": \"email or password are wrong\"\n}"
+				},
+				{
+					"name": "Auth Login 500",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\": \"doi3@mail.com\",\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/auth/login",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "56"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"38-uH/mTz44c1XOvIjXCBfHtptoJZQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 31 Mar 2023 12:08:02 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"SyntaxError\",\n    \"message\": \"Internal Server Error\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Seller Product",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "access_token",
+						"value": "{{access_token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "pit gunung",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "sepeda",
+							"type": "text"
+						},
+						{
+							"key": "base_price",
+							"value": "1500000",
+							"type": "text"
+						},
+						{
+							"key": "category_ids",
+							"value": "[3]",
+							"type": "text"
+						},
+						{
+							"key": "location",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/C:/Users/AFIF/Pictures/Saved Pictures/sepeda.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/seller/product",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"seller",
+						"product"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Seller Product status 403",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/AFIF/Pictures/Saved Pictures/sepeda.jpg"
+								}
+							],
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "71"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"47-TLXCtACTHmR9xW7LjP204rzHl+Y\""
+						},
+						{
+							"key": "Date",
+							"value": "Fri, 31 Mar 2023 17:00:02 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"notLogin\",\n    \"message\": \"You are not login/access_token is wrong\"\n}"
+				},
+				{
+					"name": "Seller Product status 400",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "pit gunung",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "sepeda",
+									"type": "text"
+								},
+								{
+									"key": "base_price",
+									"value": "1500000",
+									"type": "text"
+								},
+								{
+									"key": "category_ids",
+									"value": "[3]",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/AFIF/Pictures/Saved Pictures/sepeda.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "49"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"31-heXN8p9ux/SafKSAaHpTjDbbvUQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 02 Apr 2023 02:40:40 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"maxProducts\",\n    \"message\": \"Max 5 products\"\n}"
+				},
+				{
+					"name": "Seller Product status 500",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "name",
+									"value": "pit gunung",
+									"type": "text"
+								},
+								{
+									"key": "description",
+									"value": "sepeda",
+									"type": "text"
+								},
+								{
+									"key": "base_price",
+									"value": "1500000",
+									"type": "text"
+								},
+								{
+									"key": "category_ids",
+									"value": "[3]",
+									"type": "text"
+								},
+								{
+									"key": "location",
+									"value": "1",
+									"type": "text"
+								},
+								{
+									"key": "images",
+									"type": "file",
+									"src": "/C:/Users/AFIF/Pictures/Saved Pictures/sepeda.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product"
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "54"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"36-99dcFUMoDSYs9lAf1xKHQ+FR1JY\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 02 Apr 2023 02:43:07 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"TypeError\",\n    \"message\": \"Internal Server Error\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Seller Product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_token",
+						"value": "{{access_token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/seller/product/{{id}}",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"seller",
+						"product",
+						"{{id}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Seller Product status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "446"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"1be-ZRkAyw0H9JfEOPvbZrVmAqgBCzQ\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 06:57:40 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "[\n    {\n        \"id\": 57809,\n        \"name\": \"Sepatu1\",\n        \"description\": \"Sepatu1\",\n        \"base_price\": 10000001,\n        \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/market-final-project.appspot.com/o/products%2FPR-1680276629556-sepeda.jpg?alt=media\",\n        \"image_name\": \"PR-1680276629556-sepeda.jpg\",\n        \"location\": \"1\",\n        \"user_id\": 124439,\n        \"status\": \"available\",\n        \"createdAt\": \"2023-03-31T15:30:29.566Z\",\n        \"updatedAt\": \"2023-03-31T15:30:29.566Z\",\n        \"Categories\": [\n            {\n                \"id\": 12,\n                \"name\": \"Perlengkapan Rumah\"\n            }\n        ]\n    }\n]"
+				},
+				{
+					"name": "Seller Product status 403",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "71"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"47-TLXCtACTHmR9xW7LjP204rzHl+Y\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 02 Apr 2023 02:44:32 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"notLogin\",\n    \"message\": \"You are not login/access_token is wrong\"\n}"
+				},
+				{
+					"name": "Seller Product status 503",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "image",
+									"type": "file",
+									"src": "/C:/Users/AFIF/Pictures/Saved Pictures/....PNG"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product"
+							]
+						}
+					},
+					"status": "Service Unavailable",
+					"code": 503,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 02 Apr 2023 02:48:48 GMT"
+						},
+						{
+							"key": "Content-Length",
+							"value": "506"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=utf-8"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-cache, no-store"
+						}
+					],
+					"cookie": [],
+					"body": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n        <meta charset=\"utf-8\">\n        <title>Application Error</title>\n        <style media=\"screen\">\n\t\t  html,body,iframe {\n\t\t\tmargin: 0;\n\t\t\tpadding: 0;\n\t\t  }\n\t\t  html,body {\n\t\t\theight: 100%;\n\t\t\toverflow: hidden;\n\t\t  }\n\t\t  iframe {\n\t\t\twidth: 100%;\n\t\t\theight: 100%;\n\t\t\tborder: 0;\n\t\t  }\n\t\t</style>\n    </head>\n    <body>\n        <iframe src=\"//www.herokucdn.com/error-pages/application-error.html\"></iframe>\n    </body>\n</html>"
+				}
+			]
+		},
+		{
+			"name": "Seller Product by id",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_token",
+						"value": "{{access_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/seller/product/57809",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"seller",
+						"product",
+						"57809"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Seller Product by id status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product/57809",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product",
+								"57809"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "444"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"1bc-zu6Wk8IT6zcBGyG8G3EqXfDz0u0\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 06:58:54 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 57809,\n    \"name\": \"Sepatu1\",\n    \"description\": \"Sepatu1\",\n    \"base_price\": 10000001,\n    \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/market-final-project.appspot.com/o/products%2FPR-1680276629556-sepeda.jpg?alt=media\",\n    \"image_name\": \"PR-1680276629556-sepeda.jpg\",\n    \"location\": \"1\",\n    \"user_id\": 124439,\n    \"status\": \"available\",\n    \"createdAt\": \"2023-03-31T15:30:29.566Z\",\n    \"updatedAt\": \"2023-03-31T15:30:29.566Z\",\n    \"Categories\": [\n        {\n            \"id\": 12,\n            \"name\": \"Perlengkapan Rumah\"\n        }\n    ]\n}"
+				},
+				{
+					"name": "Seller Product by id 403",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product/57879",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product",
+								"57879"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "71"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"47-TLXCtACTHmR9xW7LjP204rzHl+Y\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 02 Apr 2023 02:46:57 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"notLogin\",\n    \"message\": \"You are not login/access_token is wrong\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Seller Product by id",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "access_token",
+						"value": "{{access_token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/seller/product/{{id}}",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"seller",
+						"product",
+						"{{id}}"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Seller Product by id status 200",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product/58089",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product",
+								"58089"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "46"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"2e-ilaVDX22URNugUcJ6MFd2mUBTdM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 02 Apr 2023 02:34:19 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"OK\",\n    \"msg\": \"Product has been deleted\"\n}"
+				},
+				{
+					"name": "Seller Product by id status 404",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product/58089",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product",
+								"58089"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "59"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"3b-cg0mpzwM94G5hFDhOuAibOGPP2Y\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 02 Apr 2023 02:34:52 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"productNotFound\",\n    \"message\": \"Product is not found\"\n}"
+				},
+				{
+					"name": "Seller Product by id status 403",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product/58089",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product",
+								"58089"
+							]
+						}
+					},
+					"status": "Forbidden",
+					"code": 403,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "71"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"47-TLXCtACTHmR9xW7LjP204rzHl+Y\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 02 Apr 2023 02:36:14 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"notLogin\",\n    \"message\": \"You are not login/access_token is wrong\"\n}"
+				},
+				{
+					"name": "Seller Product by id status 400",
+					"originalRequest": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/seller/product/a",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"seller",
+								"product",
+								"a"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "90"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"5a-MsRuQDEiBJPUxy0utTygMHXpL5Y\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 02 Apr 2023 02:36:56 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"SequelizeDatabaseError\",\n    \"message\": \"invalid input syntax for type integer: \\\"a\\\"\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Buyer Product",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "status",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "category_id",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "search",
+							"value": "",
+							"type": "text"
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "per_page",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/buyer/product",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"buyer",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Buyer Product by id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "2234",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/buyer/product/78",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"buyer",
+						"product",
+						"78"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Buyer Product by id status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "id",
+									"value": "2234",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/buyer/product/1",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"buyer",
+								"product",
+								"1"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "871"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"367-1fpKtgvaCOTdXdh2oGgLYM4kUPA\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 07:26:23 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 1,\n    \"name\": \"iPhone X\",\n    \"description\": \"iPhone X 256 GB\",\n    \"base_price\": 3500000,\n    \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/market-final-project.appspot.com/o/products%2FPR-1658363466860-temp-1597605363172421611.tmp?alt=media\",\n    \"image_name\": \"PR-1658363466860-temp-1597605363172421611.tmp\",\n    \"location\": \" Kota Malang\",\n    \"user_id\": 2,\n    \"status\": \"available\",\n    \"createdAt\": \"2022-07-21T00:31:06.870Z\",\n    \"updatedAt\": \"2022-07-21T14:44:31.439Z\",\n    \"Categories\": [\n        {\n            \"id\": 3,\n            \"name\": \"Handphone dan Aksesoris\"\n        }\n    ],\n    \"User\": {\n        \"id\": 2,\n        \"full_name\": \"ikhwan seller\",\n        \"email\": \"ikhwansell@gmail.com\",\n        \"phone_number\": \"81222106338\",\n        \"address\": \"2JW7+VGW, Ketawanggede, Kec. Lowokwaru, Kota Malang, Jawa Timur 65145, Indonesia\",\n        \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/market-final-project.appspot.com/o/avatar%2FAV-1658363726353-temp-4811687747564804188.tmp?alt=media\",\n        \"city\": \" Kota Malang\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Buyer Order",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "access_token",
+						"value": "{{access_token}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"product_id\": 887,\r\n  \"bid_price\": 1000000\r\n}"
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/buyer/order",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"buyer",
+						"order"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Buyer Order status 500",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/buyer/order/",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"buyer",
+								"order",
+								""
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "50"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"32-0mcI65AZ4VIVOATGaCKlLHZLJUg\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 07:30:03 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Error\",\n    \"message\": \"Internal Server Error\"\n}"
+				},
+				{
+					"name": "Buyer Order status 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"product_id\": {{$randomInt}},\r\n  \"bid_price\": 1000000\r\n}"
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/buyer/order",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"buyer",
+								"order"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "437"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"1b5-0A8jj7kpWmcLZcVHQLL6KVmWPjM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 07:38:47 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 23629,\n    \"buyer_id\": 124784,\n    \"product_id\": 889,\n    \"price\": 1000000,\n    \"product_name\": \"Greentea Startbucks Tall\",\n    \"base_price\": 50000,\n    \"image_product\": \"https://firebasestorage.googleapis.com/v0/b/market-final-project.appspot.com/o/products%2FPR-1658749694171-25-Jul-20228603305975251635611.jpg?alt=media\",\n    \"transaction_date\": \"2023-04-01T07:38:47.831Z\",\n    \"updatedAt\": \"2023-04-01T07:38:47.831Z\",\n    \"createdAt\": \"2023-04-01T07:38:47.831Z\",\n    \"status\": \"pending\"\n}"
+				},
+				{
+					"name": "Buyer Order status 499",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"product_id\": 889,\r\n  \"bid_price\": 1000000\r\n}"
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/buyer/order",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"buyer",
+								"order"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "60"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"3c-PFEH3YNHu98mS5YMqbyYyAs9qbM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 07:39:37 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"redundantOrder\",\n    \"message\": \"Product has been order\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Buyer Order",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_token",
+						"value": "{{access_token}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/buyer/order",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"buyer",
+						"order"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Buyer Order status 500",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/buyer/order/",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"buyer",
+								"order",
+								""
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "50"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"32-0mcI65AZ4VIVOATGaCKlLHZLJUg\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 07:30:03 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"Error\",\n    \"message\": \"Internal Server Error\"\n}"
+				},
+				{
+					"name": "Buyer Order status 200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"product_id\": {{$randomInt}},\r\n  \"bid_price\": 1000000\r\n}"
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/buyer/order",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"buyer",
+								"order"
+							]
+						}
+					},
+					"status": "Created",
+					"code": 201,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "437"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"1b5-0A8jj7kpWmcLZcVHQLL6KVmWPjM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 07:38:47 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 23629,\n    \"buyer_id\": 124784,\n    \"product_id\": 889,\n    \"price\": 1000000,\n    \"product_name\": \"Greentea Startbucks Tall\",\n    \"base_price\": 50000,\n    \"image_product\": \"https://firebasestorage.googleapis.com/v0/b/market-final-project.appspot.com/o/products%2FPR-1658749694171-25-Jul-20228603305975251635611.jpg?alt=media\",\n    \"transaction_date\": \"2023-04-01T07:38:47.831Z\",\n    \"updatedAt\": \"2023-04-01T07:38:47.831Z\",\n    \"createdAt\": \"2023-04-01T07:38:47.831Z\",\n    \"status\": \"pending\"\n}"
+				},
+				{
+					"name": "Buyer Order status 499",
+					"originalRequest": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"product_id\": 889,\r\n  \"bid_price\": 1000000\r\n}"
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/buyer/order",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"buyer",
+								"order"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "60"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"3c-PFEH3YNHu98mS5YMqbyYyAs9qbM\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 07:39:37 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"name\": \"redundantOrder\",\n    \"message\": \"Product has been order\"\n}"
+				}
+			]
+		},
+		{
+			"name": "Buyer Order by Id",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "access_token",
+						"value": "{{access_token}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/buyer/order/23629",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"buyer",
+						"order",
+						"23629"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Buyer Order by Id status 200",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": ""
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/buyer/order/23629",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"buyer",
+								"order",
+								"23629"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1058"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"422-UB/hy9GmHDXFrqsklffSWGH7Hm0\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 07:41:56 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 23629,\n    \"product_id\": 889,\n    \"buyer_id\": 124784,\n    \"price\": 1000000,\n    \"transaction_date\": \"2023-04-01T07:38:47.831Z\",\n    \"product_name\": \"Greentea Startbucks Tall\",\n    \"base_price\": 50000,\n    \"image_product\": \"https://firebasestorage.googleapis.com/v0/b/market-final-project.appspot.com/o/products%2FPR-1658749694171-25-Jul-20228603305975251635611.jpg?alt=media\",\n    \"status\": \"pending\",\n    \"Product\": {\n        \"name\": \"Greentea Startbucks Tall\",\n        \"description\": \"Enak Banget Guys\",\n        \"base_price\": 50000,\n        \"image_url\": \"https://firebasestorage.googleapis.com/v0/b/market-final-project.appspot.com/o/products%2FPR-1658749694171-25-Jul-20228603305975251635611.jpg?alt=media\",\n        \"image_name\": \"PR-1658749694171-25-Jul-20228603305975251635611.jpg\",\n        \"location\": \"Kota Tangerang Selatan\",\n        \"user_id\": 511,\n        \"status\": \"sold\",\n        \"User\": {\n            \"id\": 511,\n            \"full_name\": \"Aldi Seller Final\",\n            \"email\": \"aldisellerfinal@gmail.com\",\n            \"phone_number\": \"83875882441\",\n            \"address\": \"Jl. Raya Pd. Aren No.52A, RT.05/RW.01\",\n            \"city\": \"Kota Tangerang Selatan\"\n        }\n    },\n    \"User\": {\n        \"id\": 124784,\n        \"full_name\": \"doi4\",\n        \"email\": \"doi4@mail.com\",\n        \"phone_number\": \"\",\n        \"address\": \"\",\n        \"city\": \"\"\n    }\n}"
+				}
+			]
+		},
+		{
+			"name": "Buyer Order by Id",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "access_token",
+						"value": "{{access_token}}",
+						"type": "text"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"bid_price\": \"gratis\"\r\n}"
+				},
+				"url": {
+					"raw": "{{protocol}}{{baseurl}}/buyer/order/23629",
+					"host": [
+						"{{protocol}}{{baseurl}}"
+					],
+					"path": [
+						"buyer",
+						"order",
+						"23629"
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Buyer Order by Id status 200",
+					"originalRequest": {
+						"method": "PUT",
+						"header": [
+							{
+								"key": "access_token",
+								"value": "{{access_token}}",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"bid_price\": 1500000\r\n}"
+						},
+						"url": {
+							"raw": "{{protocol}}{{baseurl}}/buyer/order/23629",
+							"host": [
+								"{{protocol}}{{baseurl}}"
+							],
+							"path": [
+								"buyer",
+								"order",
+								"23629"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Server",
+							"value": "Cowboy"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "437"
+						},
+						{
+							"key": "Etag",
+							"value": "W/\"1b5-RCKUSD1hjHu0QtLRcfMaTQd2ozY\""
+						},
+						{
+							"key": "Date",
+							"value": "Sat, 01 Apr 2023 07:45:13 GMT"
+						},
+						{
+							"key": "Via",
+							"value": "1.1 vegur"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"id\": 23629,\n    \"product_id\": 889,\n    \"buyer_id\": 124784,\n    \"price\": 1000000,\n    \"transaction_date\": \"2023-04-01T07:38:47.831Z\",\n    \"product_name\": \"Greentea Startbucks Tall\",\n    \"base_price\": 50000,\n    \"image_product\": \"https://firebasestorage.googleapis.com/v0/b/market-final-project.appspot.com/o/products%2FPR-1658749694171-25-Jul-20228603305975251635611.jpg?alt=media\",\n    \"status\": \"pending\",\n    \"createdAt\": \"2023-04-01T07:38:47.831Z\",\n    \"updatedAt\": \"2023-04-01T07:45:13.652Z\"\n}"
+				}
+			]
+		}
+	]
+}
