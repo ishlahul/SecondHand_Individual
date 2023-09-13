@@ -1,0 +1,161 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1680417009451,1207,POST Register User Seller,201,Created,Thread Group 1-1,text,true,,557,1491,3,3,https://market-final-project.herokuapp.com/auth/register,1207,0,826
+1680417010659,348,POST Login User,201,Created,Thread Group 1-1,text,true,,506,279,4,4,https://market-final-project.herokuapp.com/auth/login,348,0,0
+1680417009949,1158,POST Register User Seller,201,Created,Thread Group 1-2,text,true,,557,1473,4,4,https://market-final-project.herokuapp.com/auth/register,1158,0,799
+1680417011008,279,Get Login User,200,OK,Thread Group 1-1,text,true,,552,356,4,4,https://market-final-project.herokuapp.com/auth/user,279,0,0
+1680417011114,353,POST Login User,201,Created,Thread Group 1-2,text,true,,506,279,5,5,https://market-final-project.herokuapp.com/auth/login,353,0,0
+1680417010448,1129,POST Register User Seller,201,Created,Thread Group 1-3,text,true,,557,1545,5,5,https://market-final-project.herokuapp.com/auth/register,1129,0,779
+1680417011468,289,Get Login User,200,OK,Thread Group 1-2,text,true,,552,356,5,5,https://market-final-project.herokuapp.com/auth/user,289,0,0
+1680417011578,350,POST Login User,201,Created,Thread Group 1-3,text,true,,506,279,5,5,https://market-final-project.herokuapp.com/auth/login,350,0,0
+1680417010951,1118,POST Register User Seller,201,Created,Thread Group 1-4,text,true,,557,1509,6,6,https://market-final-project.herokuapp.com/auth/register,1118,0,766
+1680417011928,280,Get Login User,200,OK,Thread Group 1-3,text,true,,552,356,6,6,https://market-final-project.herokuapp.com/auth/user,280,0,0
+1680417012070,398,POST Login User,201,Created,Thread Group 1-4,text,true,,506,279,7,7,https://market-final-project.herokuapp.com/auth/login,398,0,0
+1680417011288,1198,POST Seller Product,201,Created,Thread Group 1-1,text,true,,665,186031,7,7,https://market-final-project.herokuapp.com/seller/product,1198,0,0
+1680417011451,1116,POST Register User Seller,201,Created,Thread Group 1-5,text,true,,557,1563,7,7,https://market-final-project.herokuapp.com/auth/register,1116,0,757
+1680417012468,299,Get Login User,200,OK,Thread Group 1-4,text,true,,552,356,7,7,https://market-final-project.herokuapp.com/auth/user,299,0,0
+1680417012486,301,Get Seller Product,200,OK,Thread Group 1-1,text,true,,706,361,7,7,https://market-final-project.herokuapp.com/seller/product,301,0,0
+1680417011758,1149,POST Seller Product,201,Created,Thread Group 1-2,text,true,,665,185991,7,7,https://market-final-project.herokuapp.com/seller/product,1149,0,0
+1680417012568,369,POST Login User,201,Created,Thread Group 1-5,text,true,,506,279,7,7,https://market-final-project.herokuapp.com/auth/login,369,0,0
+1680417011951,1206,POST Register User Seller,201,Created,Thread Group 1-6,text,true,,557,1563,8,8,https://market-final-project.herokuapp.com/auth/register,1206,0,816
+1680417012787,400,Get Seller Product by id,200,OK,Thread Group 1-1,text,true,,706,362,8,8,https://market-final-project.herokuapp.com/seller/product/,400,0,0
+1680417012908,309,Get Seller Product,200,OK,Thread Group 1-2,text,true,,706,361,8,8,https://market-final-project.herokuapp.com/seller/product,309,0,0
+1680417012938,279,Get Login User,200,OK,Thread Group 1-5,text,true,,552,356,8,8,https://market-final-project.herokuapp.com/auth/user,279,0,0
+1680417012208,1119,POST Seller Product,201,Created,Thread Group 1-3,text,true,,665,186063,8,8,https://market-final-project.herokuapp.com/seller/product,1119,0,0
+1680417013158,359,POST Login User,201,Created,Thread Group 1-6,text,true,,506,279,9,9,https://market-final-project.herokuapp.com/auth/login,359,0,0
+1680417013187,400,POST Register User Buyer,201,Created,Thread Group 1-1,text,true,,557,1473,9,9,https://market-final-project.herokuapp.com/auth/register,400,0,0
+1680417013328,330,Get Seller Product,200,OK,Thread Group 1-3,text,true,,706,361,9,9,https://market-final-project.herokuapp.com/seller/product,330,0,0
+1680417013218,469,Get Seller Product by id,200,OK,Thread Group 1-2,text,true,,706,362,9,9,https://market-final-project.herokuapp.com/seller/product/,469,0,0
+1680417012450,1237,POST Register User Seller,201,Created,Thread Group 1-7,text,true,,557,1563,9,9,https://market-final-project.herokuapp.com/auth/register,1237,0,798
+1680417013517,300,Get Login User,200,OK,Thread Group 1-6,text,true,,552,356,9,9,https://market-final-project.herokuapp.com/auth/user,300,0,0
+1680417013587,360,POST Login User,201,Created,Thread Group 1-1,text,true,,506,279,9,9,https://market-final-project.herokuapp.com/auth/login,360,0,0
+1680417013658,289,Get Seller Product by id,200,OK,Thread Group 1-3,text,true,,706,362,9,9,https://market-final-project.herokuapp.com/seller/product/,289,0,0
+1680417012767,1200,POST Seller Product,201,Created,Thread Group 1-4,text,true,,665,186047,10,10,https://market-final-project.herokuapp.com/seller/product,1200,0,0
+1680417013688,349,POST Login User,201,Created,Thread Group 1-7,text,true,,506,279,10,10,https://market-final-project.herokuapp.com/auth/login,349,0,0
+1680417013688,369,POST Register User Buyer,201,Created,Thread Group 1-2,text,true,,557,1536,10,10,https://market-final-project.herokuapp.com/auth/register,369,0,0
+1680417012949,1218,POST Register User Seller,201,Created,Thread Group 1-8,text,true,,557,1509,10,10,https://market-final-project.herokuapp.com/auth/register,1218,0,788
+1680417013968,389,Get Seller Product,200,OK,Thread Group 1-4,text,true,,706,361,10,10,https://market-final-project.herokuapp.com/seller/product,389,0,0
+1680417013947,460,POST Register User Buyer,201,Created,Thread Group 1-3,text,true,,557,1536,10,10,https://market-final-project.herokuapp.com/auth/register,460,0,0
+1680417013218,1211,POST Seller Product,201,Created,Thread Group 1-5,text,true,,665,186063,10,10,https://market-final-project.herokuapp.com/seller/product,1211,0,0
+1680417014058,469,POST Login User,201,Created,Thread Group 1-2,text,true,,506,279,10,10,https://market-final-project.herokuapp.com/auth/login,469,0,0
+1680417014037,552,Get Login User,200,OK,Thread Group 1-7,text,true,,552,356,10,10,https://market-final-project.herokuapp.com/auth/user,552,0,0
+1680417014167,422,POST Login User,201,Created,Thread Group 1-8,text,true,,506,279,10,10,https://market-final-project.herokuapp.com/auth/login,422,0,0
+1680417013450,1237,POST Register User Seller,201,Created,Thread Group 1-9,text,true,,557,1482,10,10,https://market-final-project.herokuapp.com/auth/register,1237,0,847
+1680417014408,389,POST Login User,201,Created,Thread Group 1-3,text,true,,506,279,10,10,https://market-final-project.herokuapp.com/auth/login,389,0,0
+1680417014430,407,Get Seller Product,200,OK,Thread Group 1-5,text,true,,706,361,10,10,https://market-final-project.herokuapp.com/seller/product,407,0,0
+1680417014357,480,Get Seller Product by id,200,OK,Thread Group 1-4,text,true,,706,362,10,10,https://market-final-project.herokuapp.com/seller/product/,480,0,0
+1680417014589,288,Get Login User,200,OK,Thread Group 1-8,text,true,,552,356,10,10,https://market-final-project.herokuapp.com/auth/user,288,0,0
+1680417013947,990,GET Buyer Product,200,OK,Thread Group 1-1,text,true,,40895,262,10,10,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=sepeda&page=1&per_page=100,703,0,0
+1680417013817,1182,POST Seller Product,201,Created,Thread Group 1-6,text,true,,665,186007,10,10,https://market-final-project.herokuapp.com/seller/product,1182,0,0
+1680417014687,380,POST Login User,201,Created,Thread Group 1-9,text,true,,506,279,10,10,https://market-final-project.herokuapp.com/auth/login,380,0,0
+1680417013949,1249,POST Register User Seller,201,Created,Thread Group 1-10,text,true,,557,1536,10,10,https://market-final-project.herokuapp.com/auth/register,1249,0,818
+1680417014837,390,Get Seller Product by id,200,OK,Thread Group 1-5,text,true,,706,362,10,10,https://market-final-project.herokuapp.com/seller/product/,390,0,0
+1680417014837,430,POST Register User Buyer,201,Created,Thread Group 1-4,text,true,,557,1473,10,10,https://market-final-project.herokuapp.com/auth/register,430,0,0
+1680417014938,349,GET Buyer Product by id,200,OK,Thread Group 1-1,text,true,,4820,246,10,10,https://market-final-project.herokuapp.com/buyer/product/?status=&category_id=&search=&page=1&per_page=10,349,0,0
+1680417015000,317,Get Seller Product,200,OK,Thread Group 1-6,text,true,,706,361,10,10,https://market-final-project.herokuapp.com/seller/product,317,0,0
+1680417015067,300,Get Login User,200,OK,Thread Group 1-9,text,true,,552,356,10,10,https://market-final-project.herokuapp.com/auth/user,300,0,0
+1680417014527,900,GET Buyer Product,200,OK,Thread Group 1-2,text,true,,41322,262,10,10,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=sepeda&page=1&per_page=100,601,0,0
+1680417015198,359,POST Login User,201,Created,Thread Group 1-10,text,true,,506,279,10,10,https://market-final-project.herokuapp.com/auth/login,359,0,0
+1680417015227,400,POST Register User Buyer,201,Created,Thread Group 1-5,text,true,,557,1509,10,10,https://market-final-project.herokuapp.com/auth/register,400,0,0
+1680417015267,360,POST Login User,201,Created,Thread Group 1-4,text,true,,506,279,10,10,https://market-final-project.herokuapp.com/auth/login,360,0,0
+1680417015317,370,Get Seller Product by id,200,OK,Thread Group 1-6,text,true,,706,362,10,10,https://market-final-project.herokuapp.com/seller/product/,370,0,0
+1680417014589,1098,POST Seller Product,201,Created,Thread Group 1-7,text,true,,665,186047,10,10,https://market-final-project.herokuapp.com/seller/product,1098,0,0
+1680417015294,393,POST Buyer Order,201,Created,Thread Group 1-1,text,true,,681,431,10,10,https://market-final-project.herokuapp.com/buyer/order,393,0,0
+1680417014797,930,GET Buyer Product,200,OK,Thread Group 1-3,text,true,,41749,262,10,10,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=sepeda&page=1&per_page=100,638,0,0
+1680417015428,370,GET Buyer Product by id,200,OK,Thread Group 1-2,text,true,,4820,246,10,10,https://market-final-project.herokuapp.com/buyer/product/?status=&category_id=&search=&page=1&per_page=10,370,0,0
+1680417015557,290,Get Login User,200,OK,Thread Group 1-10,text,true,,552,356,10,10,https://market-final-project.herokuapp.com/auth/user,290,0,0
+1680417015627,370,POST Login User,201,Created,Thread Group 1-5,text,true,,506,279,10,10,https://market-final-project.herokuapp.com/auth/login,370,0,0
+1680417015688,339,GET Buyer Order,200,OK,Thread Group 1-1,text,true,,1130,358,10,10,https://market-final-project.herokuapp.com/buyer/order,339,0,0
+1680417015688,369,Get Seller Product,200,OK,Thread Group 1-7,text,true,,706,361,10,10,https://market-final-project.herokuapp.com/seller/product,369,0,0
+1680417015688,429,POST Register User Buyer,201,Created,Thread Group 1-6,text,true,,557,1545,10,10,https://market-final-project.herokuapp.com/auth/register,429,0,0
+1680417014877,1300,POST Seller Product,201,Created,Thread Group 1-8,text,true,,665,186039,10,10,https://market-final-project.herokuapp.com/seller/product,1300,0,0
+1680417015798,379,POST Buyer Order,201,Created,Thread Group 1-2,text,true,,681,431,10,10,https://market-final-project.herokuapp.com/buyer/order,379,0,0
+1680417015728,488,GET Buyer Product by id,200,OK,Thread Group 1-3,text,true,,4820,246,10,10,https://market-final-project.herokuapp.com/buyer/product/?status=&category_id=&search=&page=1&per_page=10,488,0,0
+1680417016028,292,GET Buyer Order by id,200,OK,Thread Group 1-1,text,true,,1130,359,10,10,https://market-final-project.herokuapp.com/buyer/order/,292,0,0
+1680417016057,300,Get Seller Product by id,200,OK,Thread Group 1-7,text,true,,706,362,10,10,https://market-final-project.herokuapp.com/seller/product/,300,0,0
+1680417016118,359,POST Login User,201,Created,Thread Group 1-6,text,true,,506,279,10,10,https://market-final-project.herokuapp.com/auth/login,359,0,0
+1680417016178,359,Get Seller Product,200,OK,Thread Group 1-8,text,true,,706,361,10,10,https://market-final-project.herokuapp.com/seller/product,359,0,0
+1680417016178,359,GET Buyer Order,200,OK,Thread Group 1-2,text,true,,1130,358,10,10,https://market-final-project.herokuapp.com/buyer/order,359,0,0
+1680417016217,343,POST Buyer Order,201,Created,Thread Group 1-3,text,true,,681,431,10,10,https://market-final-project.herokuapp.com/buyer/order,343,0,0
+1680417015367,1209,POST Seller Product,201,Created,Thread Group 1-9,text,true,,665,186031,10,10,https://market-final-project.herokuapp.com/seller/product,1209,0,0
+1680417016320,287,PUT Buyer Order by id,200,OK,Thread Group 1-1,text,true,,676,464,10,10,https://market-final-project.herokuapp.com/buyer/order/23703,287,0,0
+1680417016357,360,POST Register User Buyer,201,Created,Thread Group 1-7,text,true,,557,1473,10,10,https://market-final-project.herokuapp.com/auth/register,360,0,0
+1680417015627,1090,GET Buyer Product,200,OK,Thread Group 1-4,text,true,,42176,262,10,10,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=sepeda&page=1&per_page=100,571,0,0
+1680417015997,822,GET Buyer Product,200,OK,Thread Group 1-5,text,true,,42603,262,10,10,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=sepeda&page=1&per_page=100,563,0,0
+1680417016538,313,GET Buyer Order by id,200,OK,Thread Group 1-2,text,true,,1130,359,10,10,https://market-final-project.herokuapp.com/buyer/order/,313,0,0
+1680417016560,321,GET Buyer Order,200,OK,Thread Group 1-3,text,true,,1130,358,10,10,https://market-final-project.herokuapp.com/buyer/order,321,0,0
+1680417016538,343,Get Seller Product by id,200,OK,Thread Group 1-8,text,true,,706,362,10,10,https://market-final-project.herokuapp.com/seller/product/,343,0,0
+1680417016607,306,DELETE Buyer Order,200,OK,Thread Group 1-1,text,true,,330,477,10,10,https://market-final-project.herokuapp.com/buyer/order/23703,306,0,0
+1680417016577,347,Get Seller Product,200,OK,Thread Group 1-9,text,true,,706,361,10,10,https://market-final-project.herokuapp.com/seller/product,347,0,0
+1680417015847,1150,POST Seller Product,201,Created,Thread Group 1-10,text,true,,665,186063,10,10,https://market-final-project.herokuapp.com/seller/product,1150,0,0
+1680417016717,369,POST Login User,201,Created,Thread Group 1-7,text,true,,506,279,10,10,https://market-final-project.herokuapp.com/auth/login,369,0,0
+1680417016718,379,GET Buyer Product by id,200,OK,Thread Group 1-4,text,true,,4820,246,10,10,https://market-final-project.herokuapp.com/buyer/product/?status=&category_id=&search=&page=1&per_page=10,379,0,0
+1680417016851,317,PUT Buyer Order by id,200,OK,Thread Group 1-2,text,true,,676,466,10,10,https://market-final-project.herokuapp.com/buyer/order/23704,317,0,0
+1680417016820,412,GET Buyer Product by id,200,OK,Thread Group 1-5,text,true,,4820,246,10,10,https://market-final-project.herokuapp.com/buyer/product/?status=&category_id=&search=&page=1&per_page=10,412,0,0
+1680417016881,351,POST Register User Buyer,201,Created,Thread Group 1-8,text,true,,557,1509,10,10,https://market-final-project.herokuapp.com/auth/register,351,0,0
+1680417016881,366,GET Buyer Order by id,200,OK,Thread Group 1-3,text,true,,1130,359,10,10,https://market-final-project.herokuapp.com/buyer/order/,366,0,0
+1680417016913,400,DELETE Seller Product,200,OK,Thread Group 1-1,text,true,,322,486,10,10,https://market-final-project.herokuapp.com/seller/product/58169,400,0,0
+1680417016924,389,Get Seller Product by id,200,OK,Thread Group 1-9,text,true,,706,362,10,10,https://market-final-project.herokuapp.com/seller/product/,389,0,0
+1680417016997,320,Get Seller Product,200,OK,Thread Group 1-10,text,true,,706,361,9,9,https://market-final-project.herokuapp.com/seller/product,320,0,0
+1680417016478,879,GET Buyer Product,200,OK,Thread Group 1-6,text,true,,43030,262,9,9,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=sepeda&page=1&per_page=100,603,0,0
+1680417017097,326,POST Buyer Order,201,Created,Thread Group 1-4,text,true,,681,431,9,9,https://market-final-project.herokuapp.com/buyer/order,326,0,0
+1680417017187,290,DELETE Buyer Order,200,OK,Thread Group 1-2,text,true,,330,479,9,9,https://market-final-project.herokuapp.com/buyer/order/23704,290,0,0
+1680417017232,295,POST Buyer Order,201,Created,Thread Group 1-5,text,true,,681,431,9,9,https://market-final-project.herokuapp.com/buyer/order,295,0,0
+1680417017232,345,POST Login User,201,Created,Thread Group 1-8,text,true,,506,279,9,9,https://market-final-project.herokuapp.com/auth/login,345,0,0
+1680417017248,359,PUT Buyer Order by id,200,OK,Thread Group 1-3,text,true,,676,480,9,9,https://market-final-project.herokuapp.com/buyer/order/23705,359,0,0
+1680417017318,319,Get Seller Product by id,200,OK,Thread Group 1-10,text,true,,706,362,9,9,https://market-final-project.herokuapp.com/seller/product/,319,0,0
+1680417017423,284,GET Buyer Order,200,OK,Thread Group 1-4,text,true,,1130,358,9,9,https://market-final-project.herokuapp.com/buyer/order,284,0,0
+1680417017313,394,POST Register User Buyer,201,Created,Thread Group 1-9,text,true,,557,1545,9,9,https://market-final-project.herokuapp.com/auth/register,394,0,0
+1680417017477,310,DELETE Seller Product,200,OK,Thread Group 1-2,text,true,,322,488,9,9,https://market-final-project.herokuapp.com/seller/product/58170,310,0,0
+1680417017358,429,GET Buyer Product by id,200,OK,Thread Group 1-6,text,true,,4820,246,9,9,https://market-final-project.herokuapp.com/buyer/product/?status=&category_id=&search=&page=1&per_page=10,429,0,0
+1680417017528,279,GET Buyer Order,200,OK,Thread Group 1-5,text,true,,1130,358,8,8,https://market-final-project.herokuapp.com/buyer/order,279,0,0
+1680417017607,300,DELETE Buyer Order,200,OK,Thread Group 1-3,text,true,,330,485,8,8,https://market-final-project.herokuapp.com/buyer/order/23705,300,0,0
+1680417017087,840,GET Buyer Product,200,OK,Thread Group 1-7,text,true,,43030,262,8,8,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=sepeda&page=1&per_page=100,581,0,0
+1680417017637,360,POST Register User Buyer,201,Created,Thread Group 1-10,text,true,,557,1509,8,8,https://market-final-project.herokuapp.com/auth/register,360,0,0
+1680417017718,279,GET Buyer Order by id,200,OK,Thread Group 1-4,text,true,,1130,359,8,8,https://market-final-project.herokuapp.com/buyer/order/,279,0,0
+1680417017718,369,POST Login User,201,Created,Thread Group 1-9,text,true,,506,279,8,8,https://market-final-project.herokuapp.com/auth/login,369,0,0
+1680417017788,299,POST Buyer Order,201,Created,Thread Group 1-6,text,true,,681,431,8,8,https://market-final-project.herokuapp.com/buyer/order,299,0,0
+1680417017807,320,GET Buyer Order by id,200,OK,Thread Group 1-5,text,true,,1130,359,8,8,https://market-final-project.herokuapp.com/buyer/order/,320,0,0
+1680417017908,319,DELETE Seller Product,200,OK,Thread Group 1-3,text,true,,322,482,8,8,https://market-final-project.herokuapp.com/seller/product/58171,319,0,0
+1680417017928,340,GET Buyer Product by id,200,OK,Thread Group 1-7,text,true,,4820,246,7,7,https://market-final-project.herokuapp.com/buyer/product/?status=&category_id=&search=&page=1&per_page=10,340,0,0
+1680417017998,299,PUT Buyer Order by id,200,OK,Thread Group 1-4,text,true,,676,484,7,7,https://market-final-project.herokuapp.com/buyer/order/23706,299,0,0
+1680417017998,359,POST Login User,201,Created,Thread Group 1-10,text,true,,506,279,7,7,https://market-final-project.herokuapp.com/auth/login,359,0,0
+1680417017578,819,GET Buyer Product,200,OK,Thread Group 1-8,text,true,,42603,262,7,7,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=sepeda&page=1&per_page=100,316,0,0
+1680417018087,364,GET Buyer Order,200,OK,Thread Group 1-6,text,true,,1130,358,7,7,https://market-final-project.herokuapp.com/buyer/order,364,0,0
+1680417018127,340,PUT Buyer Order by id,200,OK,Thread Group 1-5,text,true,,676,470,7,7,https://market-final-project.herokuapp.com/buyer/order/23707,340,0,0
+1680417018268,289,POST Buyer Order,201,Created,Thread Group 1-7,text,true,,681,431,7,7,https://market-final-project.herokuapp.com/buyer/order,289,0,0
+1680417018297,280,DELETE Buyer Order,200,OK,Thread Group 1-4,text,true,,330,469,7,7,https://market-final-project.herokuapp.com/buyer/order/23706,280,0,0
+1680417018467,292,DELETE Buyer Order,200,OK,Thread Group 1-5,text,true,,330,485,7,7,https://market-final-project.herokuapp.com/buyer/order/23707,292,0,0
+1680417018452,307,GET Buyer Order by id,200,OK,Thread Group 1-6,text,true,,1130,359,7,7,https://market-final-project.herokuapp.com/buyer/order/,307,0,0
+1680417018398,376,GET Buyer Product by id,200,OK,Thread Group 1-8,text,true,,4820,246,7,7,https://market-final-project.herokuapp.com/buyer/product/?status=&category_id=&search=&page=1&per_page=10,376,0,0
+1680417018557,280,GET Buyer Order,200,OK,Thread Group 1-7,text,true,,1130,358,7,7,https://market-final-project.herokuapp.com/buyer/order,280,0,0
+1680417018577,290,DELETE Seller Product,200,OK,Thread Group 1-4,text,true,,322,488,7,7,https://market-final-project.herokuapp.com/seller/product/58172,290,0,0
+1680417018087,910,GET Buyer Product,200,OK,Thread Group 1-9,text,true,,42176,262,6,6,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=sepeda&page=1&per_page=100,633,0,0
+1680417018760,297,DELETE Seller Product,200,OK,Thread Group 1-5,text,true,,322,474,6,6,https://market-final-project.herokuapp.com/seller/product/58173,297,0,0
+1680417018760,297,PUT Buyer Order by id,200,OK,Thread Group 1-6,text,true,,676,482,6,6,https://market-final-project.herokuapp.com/buyer/order/23708,297,0,0
+1680417018775,312,POST Buyer Order,201,Created,Thread Group 1-8,text,true,,681,431,5,5,https://market-final-project.herokuapp.com/buyer/order,312,0,0
+1680417018837,280,GET Buyer Order by id,200,OK,Thread Group 1-7,text,true,,1130,359,5,5,https://market-final-project.herokuapp.com/buyer/order/,280,0,0
+1680417018357,877,GET Buyer Product,200,OK,Thread Group 1-10,text,true,,42176,262,5,5,https://market-final-project.herokuapp.com/buyer/product?status=available&category_id=1&search=sepeda&page=1&per_page=100,346,0,0
+1680417019057,309,DELETE Buyer Order,200,OK,Thread Group 1-6,text,true,,330,467,5,5,https://market-final-project.herokuapp.com/buyer/order/23708,309,0,0
+1680417018998,368,GET Buyer Product by id,200,OK,Thread Group 1-9,text,true,,4820,246,5,5,https://market-final-project.herokuapp.com/buyer/product/?status=&category_id=&search=&page=1&per_page=10,368,0,0
+1680417019087,290,GET Buyer Order,200,OK,Thread Group 1-8,text,true,,1130,358,5,5,https://market-final-project.herokuapp.com/buyer/order,290,0,0
+1680417019118,289,PUT Buyer Order by id,200,OK,Thread Group 1-7,text,true,,676,470,5,5,https://market-final-project.herokuapp.com/buyer/order/23709,289,0,0
+1680417019240,337,GET Buyer Product by id,200,OK,Thread Group 1-10,text,true,,4820,246,5,5,https://market-final-project.herokuapp.com/buyer/product/?status=&category_id=&search=&page=1&per_page=10,337,0,0
+1680417019407,288,DELETE Buyer Order,200,OK,Thread Group 1-7,text,true,,330,467,5,5,https://market-final-project.herokuapp.com/buyer/order/23709,288,0,0
+1680417019366,329,DELETE Seller Product,200,OK,Thread Group 1-6,text,true,,322,482,5,5,https://market-final-project.herokuapp.com/seller/product/58174,329,0,0
+1680417019377,318,GET Buyer Order by id,200,OK,Thread Group 1-8,text,true,,1130,359,5,5,https://market-final-project.herokuapp.com/buyer/order/,318,0,0
+1680417019366,354,POST Buyer Order,201,Created,Thread Group 1-9,text,true,,681,431,4,4,https://market-final-project.herokuapp.com/buyer/order,354,0,0
+1680417019578,309,POST Buyer Order,201,Created,Thread Group 1-10,text,true,,681,431,4,4,https://market-final-project.herokuapp.com/buyer/order,309,0,0
+1680417019695,582,DELETE Seller Product,200,OK,Thread Group 1-7,text,true,,322,486,4,4,https://market-final-project.herokuapp.com/seller/product/58175,582,0,0
+1680417019742,565,GET Buyer Order,200,OK,Thread Group 1-9,text,true,,1130,358,3,3,https://market-final-project.herokuapp.com/buyer/order,565,0,0
+1680417019695,2112,PUT Buyer Order by id,200,OK,Thread Group 1-8,text,true,,676,472,3,3,https://market-final-project.herokuapp.com/buyer/order/23710,2112,0,0
+1680417019888,1919,GET Buyer Order,200,OK,Thread Group 1-10,text,true,,1130,358,3,3,https://market-final-project.herokuapp.com/buyer/order,1919,0,0
+1680417020307,1540,GET Buyer Order by id,200,OK,Thread Group 1-9,text,true,,1130,359,3,3,https://market-final-project.herokuapp.com/buyer/order/,1540,0,0
+1680417021848,1849,PUT Buyer Order by id,200,OK,Thread Group 1-9,text,true,,676,478,3,3,https://market-final-project.herokuapp.com/buyer/order/23711,1849,0,0
+1680417021807,2020,DELETE Buyer Order,200,OK,Thread Group 1-8,text,true,,330,471,3,3,https://market-final-project.herokuapp.com/buyer/order/23710,2020,0,0
+1680417021807,2020,GET Buyer Order by id,200,OK,Thread Group 1-10,text,true,,1130,359,3,3,https://market-final-project.herokuapp.com/buyer/order/,2020,0,0
+1680417023697,350,DELETE Buyer Order,200,OK,Thread Group 1-9,text,true,,330,471,3,3,https://market-final-project.herokuapp.com/buyer/order/23711,350,0,0
+1680417023828,329,DELETE Seller Product,200,OK,Thread Group 1-8,text,true,,322,484,3,3,https://market-final-project.herokuapp.com/seller/product/58176,329,0,0
+1680417023828,387,PUT Buyer Order by id,200,OK,Thread Group 1-10,text,true,,676,464,2,2,https://market-final-project.herokuapp.com/buyer/order/23712,387,0,0
+1680417024047,340,DELETE Seller Product,200,OK,Thread Group 1-9,text,true,,322,488,2,2,https://market-final-project.herokuapp.com/seller/product/58177,340,0,0
+1680417024215,322,DELETE Buyer Order,200,OK,Thread Group 1-10,text,true,,330,471,1,1,https://market-final-project.herokuapp.com/buyer/order/23712,322,0,0
+1680417024537,361,DELETE Seller Product,200,OK,Thread Group 1-10,text,true,,322,470,1,1,https://market-final-project.herokuapp.com/seller/product/58178,361,0,0
